@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    min-height: 10vh;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.list-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;    
+    gap: 90px;
+    color:#28B219;
+}
+
